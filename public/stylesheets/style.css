@@ -1,0 +1,42 @@
+#navbar {
+  border-radius: 0;
+  margin: 0;
+}
+
+#map {
+  background-color: purple;
+  height: 100vh;
+}
+
+#form {
+  float: right;
+  background-color: yellow;
+  display: block;
+  height: 45vh;
+  position: absolute;
+  top: 5.8vh;
+  right: 0;
+}
+
+#day {
+  float: right;
+  background-color: orange;
+  display: block;
+  height: 45vh;
+  position: absolute;
+  top: 60vh;
+  right: 0;
+  overflow: scroll;
+}
+
+#dayplans {
+  margin-left: 10%;
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
